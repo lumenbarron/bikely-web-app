@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  background: url(./../assets/background-home.png) no-repeat center center fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=global.css.map */

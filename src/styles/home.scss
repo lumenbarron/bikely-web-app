@@ -1,0 +1,15 @@
+@import "./global.scss";
+
+.flex-nav {
+  @include flex(row, flex-end);
+  width: 100%;
+}
+
+.title-header {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex-title {
+  @include flex(row, center);
+}

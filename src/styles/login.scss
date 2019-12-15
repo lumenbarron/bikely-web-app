@@ -1,0 +1,9 @@
+@import "./global.scss";
+
+.flex-center {
+  @include flex(row, center);
+}
+
+.flex-column {
+    @include flex(column, center);
+  }
