@@ -55,11 +55,12 @@ export default {
       firebase
         .auth()
         .createUserWithEmailAndPassword(this.email, this.password)
-        .then((user) => {
+        .then(() => {
           this.$router.replace("/about");
-          alert("Your account has been created!" + user);
+          /* eslint-disable no-console */
+          alert("Your account has been created!");
         }),
-        (err) => {
+        err => {
           alert("We have an error" + err.message);
         };
     }

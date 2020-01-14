@@ -57,7 +57,9 @@ export default {
         .signInWithEmailAndPassword(this.email, this.password)
         .then(user => {
           this.$router.replace("/about");
-          alert("Your are connected" + user);
+          /* eslint-disable no-console */
+          console.log('user', user)
+          alert("Your are connected");
         }),
         err => {
           alert("We have an error" + err.message);
