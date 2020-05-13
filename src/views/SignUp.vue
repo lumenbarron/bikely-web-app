@@ -22,7 +22,7 @@
         <b-row class="w-50 mb-3">
           <b-form-input
             v-model="password"
-            placeholder="Enter your password"
+            placeholder="Enter your password ( more than 6 characters )"
           ></b-form-input>
         </b-row>
         <b-button variant="outline-success" @click="signUp" size="lg"
